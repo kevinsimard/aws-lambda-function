@@ -6,7 +6,7 @@
 
     <groupId>com.kevinsimard</groupId>
     <artifactId>aws-lambda-example</artifactId>
-    <version>1.0.0</version>
+    <version>1.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -22,7 +22,7 @@
         <dependency>
             <groupId>com.kevinsimard</groupId>
             <artifactId>aws-lambda-local-runner</artifactId>
-            <version>1.0.0</version>
+            <version>1.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
