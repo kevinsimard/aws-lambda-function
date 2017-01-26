@@ -20,14 +20,12 @@ Run `$ mvn exec:java` to run the Lambda function locally.
 
     ├── src
     │   └── main
-    │       ├── java
-    │       │   └── com
-    │       │       └── kevinsimard
-    │       │           └── lambda
-    │       │               └── function
-    │       │                   └── Example.java
-    │       └── resources
-    │           └── log4j.properties
+    │       └── java
+    │           └── com
+    │               └── kevinsimard
+    │                   └── lambda
+    │                       └── function
+    │                           └── Example.java
     ├── .editorconfig
     ├── .gitattributes
     ├── .gitignore
