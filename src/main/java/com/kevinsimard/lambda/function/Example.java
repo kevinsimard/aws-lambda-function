@@ -11,19 +11,19 @@ public class Example implements RequestHandler<Example.Request, Example.Response
     }
 
     static class Request {
-        public String message;
+
+        private String message;
 
         public void setMessage(String message) {
             this.message = message;
         }
 
-        private Request() {
-            //
-        }
+        private Request() {}
     }
 
     static class Response {
-        public String message;
+
+        private String message;
 
         public String getMessage() {
             return this.message;
