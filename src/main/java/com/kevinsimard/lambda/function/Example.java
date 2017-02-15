@@ -10,27 +10,15 @@ public class Example implements RequestHandler<Example.Request, Example.Response
         return new Response(request.message);
     }
 
-    protected static class Request {
-
-        private String message;
-
-        private Request() {}
-
-        public void setMessage(String message) {
-            this.message = message;
-        }
+    static class Request {
+        public String message;
     }
 
-    protected static class Response {
+    static class Response {
+        public String message;
 
-        private String message;
-
-        private Response(String message) {
+        Response(String message) {
             this.message = message;
-        }
-
-        public String getMessage() {
-            return this.message;
         }
     }
 }
