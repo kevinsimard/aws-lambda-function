@@ -21,9 +21,9 @@ Run `$ mvn compile exec:java` to run the Lambda function locally.
     ├── .editorconfig
     ├── .gitattributes
     ├── .gitignore
-    ├── LICENSE.txt
-    ├── pom.xml
-    └── README.md
+    ├── LICENSE.md
+    ├── README.md
+    └── pom.xml
 
 ## License
 
