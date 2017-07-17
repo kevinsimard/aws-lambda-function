@@ -1,10 +1,10 @@
-# AWS Lambda Function Example
+# AWS Lambda Function
 
 Use this sample code to author Java functions in Lambda. It also supports local debugging.
 
 ## Local Development
 
-Download and install the [aws-lambda-local-runner](https://github.com/kevinsimard/aws-lambda-local-runner) Maven repository.
+Download and install the [aws-lambda-runner](https://github.com/kevinsimard/aws-lambda-runner) Maven repository.
 
 Run `$ mvn compile exec:java` to run the Lambda function locally.
 
@@ -15,9 +15,9 @@ Run `$ mvn compile exec:java` to run the Lambda function locally.
     │       └── java
     │           └── com
     │               └── kevinsimard
-    │                   └── lambda
-    │                       └── function
-    │                           └── Example.java
+    │                   └── aws
+    │                       └── lambda
+    │                           └── Function.java
     ├── .editorconfig
     ├── .gitattributes
     ├── .gitignore

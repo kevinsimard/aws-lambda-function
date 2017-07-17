@@ -1,10 +1,10 @@
-package com.kevinsimard.lambda.function;
+package com.kevinsimard.aws.lambda;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 
 @SuppressWarnings("unused")
-public class Example implements RequestHandler<Example.Request, Example.Response> {
+public class Function implements RequestHandler<Function.Request, Function.Response> {
 
     public Response handleRequest(Request request, Context context) {
         return new Response(request.message);
