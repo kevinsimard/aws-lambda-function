@@ -3,7 +3,6 @@ package com.kevinsimard.aws.lambda;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 
-@SuppressWarnings("unused")
 public class Function implements RequestHandler<Function.Request, Function.Response> {
 
     public Response handleRequest(Request request, Context context) {
